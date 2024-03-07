@@ -29,4 +29,4 @@ inputs.forEach((input,index)=>
 		}
 	})
 })
-// window.addEventListener("load",()=>inputs[0].focus());
+window.addEventListener("load",()=>inputs[0].focus());
