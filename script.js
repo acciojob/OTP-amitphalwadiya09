@@ -9,9 +9,8 @@ inputs.forEach((input,index)=>
      const next = input.nextElementSibling;
      const prev = input.previousElementSibling;
 
-	if(next && next.hasAttribute("disabled") && curInput.value!=="")
+	if(next && curInput.value!=="")
 	{
-		next.removeAttribute("disabled");
 		next.focus();
 	}
 		if(eventdetails.key ==="Backspace")
@@ -19,7 +18,6 @@ inputs.forEach((input,index)=>
 			inputs.forEach((input,index2)=>{
 				if(index<=index2 && prev)
 				{
-					input.setAttribute("disabled",true)
 			        curInput.value="";
 					prev.focus()
 				}
