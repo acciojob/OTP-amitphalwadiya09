@@ -25,12 +25,12 @@ body {
             margin-bottom: 20px;
 	text-align:center;
         }
-.otp_container{
+.code_container{
             display: flex;
             justify-content: center;
             align-items: center;
         }
-.otp{
+.code{
             width: 40px;
             height: 60px;
             font-size: 20px;
