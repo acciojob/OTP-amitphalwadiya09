@@ -25,7 +25,7 @@ body {
             margin-bottom: 20px;
 	text-align:center;
         }
-.code_container{
+.code-container{
             display: flex;
             justify-content: center;
             align-items: center;
